@@ -66,9 +66,10 @@ export interface ImportResponse {
     createdByFullName?: string;
 }
 export namespace ImportResponse {
-    export type EntityTypeCodeNameEnum = 'contacts' | 'rentals' | 'units';
+    export type EntityTypeCodeNameEnum = 'contacts' | 'map_features' | 'rentals' | 'units';
     export const EntityTypeCodeNameEnum = {
         Contacts: 'contacts' as EntityTypeCodeNameEnum,
+        MapFeatures: 'map_features' as EntityTypeCodeNameEnum,
         Rentals: 'rentals' as EntityTypeCodeNameEnum,
         Units: 'units' as EntityTypeCodeNameEnum
     };
