@@ -9,6 +9,8 @@
  * https://openapi-generator.tech
  * Do not edit the class manually.
  */
+import { SiteUserRequest } from './siteUserRequest';
+import { GenericAddressRequestDto } from './genericAddressRequestDto';
 
 
 export interface CreateDefaultDataRequest { 
@@ -24,6 +26,28 @@ export interface CreateDefaultDataRequest {
      * Fields to skip during default data creation.
      */
     skip?: Array<string>;
+    orgAddress?: GenericAddressRequestDto;
+    siteAddress?: GenericAddressRequestDto;
+    /**
+     * Org Phone number
+     */
+    sitePhoneNumber?: string;
+    /**
+     * Site Phone number
+     */
+    orgPhoneNumber?: string;
+    /**
+     * Email address for the org.
+     */
+    orgEmail?: string;
+    /**
+     * Email address for the site.
+     */
+    siteEmail?: string;
+    /**
+     * Amenity Ids
+     */
+    siteUsers?: Array<SiteUserRequest>;
     /**
      * Refresh token of the user.
      */

@@ -15,6 +15,7 @@ model/createDefaultDataRequest.ts
 model/defaultDataResponse.ts
 model/forbiddenError403Response.ts
 model/forbiddenError403ResponseError.ts
+model/genericAddressRequestDto.ts
 model/import200Response.ts
 model/importResponse.ts
 model/internalServerError500Response.ts
@@ -22,6 +23,7 @@ model/internalServerError500ResponseError.ts
 model/models.ts
 model/resetData200Response.ts
 model/resetDataResponse.ts
+model/siteUserRequest.ts
 model/unauthorizedError401Response.ts
 model/unauthorizedError401ResponseError.ts
 ng-package.json
