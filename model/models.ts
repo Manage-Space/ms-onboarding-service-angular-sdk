@@ -13,6 +13,7 @@ export * from './internalServerError500Response';
 export * from './internalServerError500ResponseError';
 export * from './resetData200Response';
 export * from './resetDataResponse';
+export * from './siteAmenityRequest';
 export * from './siteUserRequest';
 export * from './unauthorizedError401Response';
 export * from './unauthorizedError401ResponseError';

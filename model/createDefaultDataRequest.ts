@@ -9,6 +9,7 @@
  * https://openapi-generator.tech
  * Do not edit the class manually.
  */
+import { SiteAmenityRequest } from './siteAmenityRequest';
 import { SiteUserRequest } from './siteUserRequest';
 import { GenericAddressRequestDto } from './genericAddressRequestDto';
 
@@ -45,9 +46,13 @@ export interface CreateDefaultDataRequest {
      */
     siteEmail?: string;
     /**
-     * Amenity Ids
+     * Site user(s)
      */
     siteUsers?: Array<SiteUserRequest>;
+    /**
+     * Site amenitys(s)
+     */
+    siteAmenities?: Array<SiteAmenityRequest>;
     /**
      * Refresh token of the user.
      */

@@ -32,5 +32,16 @@ export interface SiteUserRequest {
      * Mobile number
      */
     mobileNumber: string;
+    /**
+     * Job title
+     */
+    jobTitle: SiteUserRequest.JobTitleEnum;
 }
+export namespace SiteUserRequest {
+    export type JobTitleEnum = 'property_manager';
+    export const JobTitleEnum = {
+        PropertyManager: 'property_manager' as JobTitleEnum
+    };
+}
+
 

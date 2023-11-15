@@ -23,6 +23,7 @@ model/internalServerError500ResponseError.ts
 model/models.ts
 model/resetData200Response.ts
 model/resetDataResponse.ts
+model/siteAmenityRequest.ts
 model/siteUserRequest.ts
 model/unauthorizedError401Response.ts
 model/unauthorizedError401ResponseError.ts
