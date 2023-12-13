@@ -17,7 +17,7 @@ export interface SiteUserRequest {
      */
     firstName: string;
     /**
-     * Middle name
+     * Middle intial
      */
     middleInitial?: string;
     /**
