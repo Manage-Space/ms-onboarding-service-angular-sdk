@@ -66,12 +66,13 @@ export interface ImportResponse {
     createdByFullName?: string;
 }
 export namespace ImportResponse {
-    export type EntityTypeCodeNameEnum = 'contacts' | 'invoices' | 'invoice_line_items' | 'map_features' | 'rentals' | 'units';
+    export type EntityTypeCodeNameEnum = 'contacts' | 'invoices' | 'invoice_line_items' | 'map_features' | 'payment_transactions' | 'rentals' | 'units';
     export const EntityTypeCodeNameEnum = {
         Contacts: 'contacts' as EntityTypeCodeNameEnum,
         Invoices: 'invoices' as EntityTypeCodeNameEnum,
         InvoiceLineItems: 'invoice_line_items' as EntityTypeCodeNameEnum,
         MapFeatures: 'map_features' as EntityTypeCodeNameEnum,
+        PaymentTransactions: 'payment_transactions' as EntityTypeCodeNameEnum,
         Rentals: 'rentals' as EntityTypeCodeNameEnum,
         Units: 'units' as EntityTypeCodeNameEnum
     };
